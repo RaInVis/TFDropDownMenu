@@ -1,7 +1,10 @@
 # TFDropDownMenu
 a highly customizable drop-down menu ,You can customize various properties of a cell, such as color, University, width, etc.
-Provides several initialization methods to add a data source and obtain a click event through an agent
-just call this method
+
+Provides several initialization methods to add a data source and obtain a click event through an agent.
+
+You can call this method to initialize, and provide other methods, such as adding and modifying cells.
+
 - (instancetype)initWithPoint:(CGPoint)point
                   arrowsRatio:(CGFloat)ratio
                     direction:(TFDropDownMenuArrowsDirection)direction
